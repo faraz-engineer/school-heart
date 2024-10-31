@@ -1,0 +1,22 @@
+@media screen and (max-width:1200px) {
+  .product-container {
+    justify-content: flex-start;
+    padding-left: 81px;
+  }
+}
+
+
+@media screen and (max-width: 991px) {
+
+  }
+
+
+@media screen and (max-width:768px) {
+    .product- {
+
+    }
+}
+
+@media screen and (max-width:576px) {
+    
+}
