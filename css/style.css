@@ -149,6 +149,7 @@ body * {
   line-height: 80px;
   letter-spacing: 0.2px;
   color: white;
+  text-align: center;
 }
 
 .hero-text h5 {
@@ -1576,19 +1577,29 @@ body * {
   }
 
   .card-1 {
-    width: 140px;
+    width: 200px;
     height: 180px;
+    max-width: 100%;
+    margin: 0 auto;
+    box-shadow: none;
 
   }
 
   .card-2 {
-    width: 140px;
+    width: 200px;
     height: 180px;
+    max-width: 100%;
+    margin: 0 auto;
+    box-shadow: none;
   }
 
   .card-3 {
-    width: 141px;
+    width: 200px;
     height: 180px;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: none;
   }
 
   .card-1 h2 {
@@ -1604,6 +1615,7 @@ body * {
   .card-3 h2 {
     font-size: 10px;
     padding-left: 12px;
+    color: black;
   }
 
   .card-1 hr {
@@ -1619,6 +1631,7 @@ body * {
   .card-3 hr {
     margin: 5px 20px;
     padding-left: 20px;
+    background-color: #FF6551;
   }
 
   .card-1 img {
@@ -1658,10 +1671,12 @@ body * {
     font-size: 8px;
     line-height: 10px;
     padding-left: 20px;
+    color: #737373;
   }
 
   .parent-card {
-    gap: 10px;
+    display: block;
+    bottom: -540px;
   }
 
   .hero-text h1 {
@@ -1675,7 +1690,8 @@ body * {
   .courses-parent {
     gap: 40px;
     flex-direction: column-reverse;
-    padding: 0px;
+    padding-bottom: 0px;
+          position: relative;
   }
 
   .courses-description h2 {
@@ -1856,5 +1872,20 @@ body * {
   width: 100%;
           margin: 0px 5px;
 }
-
+.hero-container {
+  height: 70vh;
+  margin-bottom: 336px;
+}
+.hero-text p {
+  margin-bottom: 0px;
+}
+.hero-text h1 {
+  line-height: 50px;
+}
+.hero-text h5 {
+  margin-top: 10px;
+}
+.hero-text button {
+ margin-top: 20px; 
+}
 }
