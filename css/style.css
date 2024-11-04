@@ -538,11 +538,10 @@ body * {
   display: flex;
   gap: 10px;
   left: 49px;
-  opacity: 0;
-  transition: opacity 0.3s ease;
   transform: translateY(-50%);
   opacity: 0;
   transition: opacity 0.3s ease;
+  justify-content: center;
 }
 
 .product-card:hover .product-icons {
@@ -1887,5 +1886,10 @@ body * {
 }
 .courses-description3 .course-img {
   width: 60px;
+}
+.product-card .product-icons {
+  opacity: 1; 
+  transition: none; 
+  bottom: 170px;
 }
 }
